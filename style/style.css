@@ -13,7 +13,7 @@ body {
 }
 
 .head {
-    height: 100px;
+    border-radius: 0px 0px 30px 30px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -49,11 +49,12 @@ body {
     color: rgb(227, 227, 227);
 }
 
-.con{
+/* .con{
     height: 80vh;
-}
+} */
 
 .con .con-one {
+    margin-top:20px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,6 +112,15 @@ body {
 } */
 
 .con-two img {
+    width: 100%;
+    filter: drop-shadow(-32px 42px 100px rgba(0, 0, 0, 0.52));
+}
+
+.texts{
+    padding-left: 10%;
+}
+
+.second img {
     width: 100%;
     filter: drop-shadow(-32px 42px 100px rgba(0, 0, 0, 0.52));
 }
