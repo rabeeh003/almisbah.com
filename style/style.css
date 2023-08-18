@@ -30,7 +30,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.name:hover{
+.name:hover {
     color: rgb(227, 227, 227);
 }
 
@@ -46,7 +46,7 @@ body {
     /* text-shadow: 2px -2px 25px rgba(8, 130, 160, 1); */
 }
 
-.tab-item:hover{
+.tab-item:hover {
     color: rgb(227, 227, 227);
 }
 
@@ -54,8 +54,9 @@ body {
     height: 80vh;
 } */
 
+
 .con .con-one {
-    margin-top:20px ;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +71,7 @@ body {
     box-shadow: -2px 0px 155px -23px rgba(0, 0, 0, 0.75);
 }
 
-.kalli .con-head-one{
+.kalli .con-head-one {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +87,7 @@ body {
     font-size: x-large;
 }
 
-.con-one img{
+.con-one img {
     width: 100px;
     margin: auto;
 }
@@ -102,7 +103,7 @@ body {
     font-size: x-large;
 }
 
-.d-butten:hover{
+.d-butten:hover {
     color: #ff0090;
     background-color: #ededed;
 
@@ -117,7 +118,7 @@ body {
     filter: drop-shadow(-32px 42px 100px rgba(0, 0, 0, 0.52));
 }
 
-.texts{
+.texts {
     padding-left: 10%;
 }
 
@@ -125,3 +126,68 @@ body {
     width: 100%;
     filter: drop-shadow(-32px 42px 100px rgba(0, 0, 0, 0.52));
 }
+
+/* second section end */
+/* therd section  start*/
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social ul li {
+    display: inline-block;
+}
+
+.social ul li a {
+    color: #ffffff;
+    text-align: center;
+}
+
+.social ul li a span {
+    height: 42px;
+    width: 42px;
+    font-size: 13px;
+    background: #ffffff;
+    line-height: 42px;
+    color: #2200ff;
+    border-radius: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.social ul li a i:hover {
+    background: #fff;
+    color: #333;
+    border: 1px solid #fff;
+}
+
+.copyright span {
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.copyright a:hover {
+    color: #000000;
+}
+
+/* third section end */
